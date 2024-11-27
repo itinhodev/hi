@@ -10,30 +10,28 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: var(--dark2);
+    background: var(--black);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--dark3);
+    background: var(--cyan1);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--dark4);
+    background: var(--blue1);
 }
 
 :root{
     --white: #fff;
-    --dark1: #34344e;
-    --dark2: #3a415a;
-    --dark3: #566981;
-    --dark4: #89a7b1;
-    --dark5: #cbdad5;
-    --dark6: #2f2f46;
+    --black: #141313;
+    --gray: #1a1717;
+    --gray2: #141313;
+    --blue1: #00a8e8;
     --cyan1: #70e3ea;
 }
 
 body{
-    background-color: var(--dark1);
+    background-color: var(--black);
     height: 100vh;
     font-family: 'Poppins';
 }
@@ -45,7 +43,7 @@ header{
     gap: 1rem;
     flex-wrap: wrap;
     padding: .8rem;
-    background-color: var(--dark6);
+    background-color: var(--black);
     min-height: 50px;
 }
 
@@ -68,12 +66,12 @@ nav{
 
 .nav-links{
     text-decoration: none;
-    color: var(--white);
+    color: var(--cyan1);
 }
 
 .nav-links:hover{
-    color: var(--dark4);
-    transition: .4s;
+    color: var(--blue1);
+    transition: .5s;
     text-decoration: underline;
 }
 
@@ -91,13 +89,13 @@ button, .link-action{
 
 .btn-action{
     background-color: transparent;
-    border: 1px solid var(--white);
-    color: var(--white);
+    border: 1px solid var(--cyan1);
+    color: var(--cyan1);
 }
 
 .btn-action:hover{
-    background-color: var(--dark3);
-    border: 1px var(--dark3);
+    background-color: var(--blue1);
+    border: 1px var(--blue1);
 }
 
 main{
@@ -157,7 +155,7 @@ strong{
 }
 
 .segunda-section, .quarta-section{
-    background-color: var(--dark2);
+    background-color: var(--gray);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,18 +173,18 @@ strong{
 }
 
 .segunda-section ul li{
-    color: var(--dark4);
+    color: var(--cyan1);
     letter-spacing: 2px;
 }
 
 .segunda-section ul li:hover{
-    color: var(--dark5);
+    color: var(--blue1);
     transition: .5s;
     cursor: default;
 }
 
 .titulo{
-    color: var(--dark5);
+    color: var(--white);
 }
 
 .terceira-section{
@@ -222,16 +220,16 @@ strong{
 
 #meus-projetos a{
     text-decoration: none;
-    color: var(--dark3);
+    color: var(--cyan1);
 }
 
 #meus-projetos a:hover{
     transition: .4s;
-    color: var(--dark4);
+    color: var(--blue1);
 }
 
 .img-perfil{
-    box-shadow: 1px 1px 1px 1px var(--cyan1);
+    box-shadow: 3px 3px 3px 3px var(--cyan1);
 }
 
 footer{
